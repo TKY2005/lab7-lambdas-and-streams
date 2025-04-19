@@ -1,6 +1,10 @@
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+/*
+ * Name: Youssef Mohamed Torki Ahmed
+ * ID: 445820246
+ * Lab7- Streams and lambda expressions.
+ */
+
+import java.io.*;
 import java.util.*;
 
 public class ListExample {
