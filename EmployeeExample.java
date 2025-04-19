@@ -35,7 +35,7 @@ public class EmployeeExample {
         empList.stream().forEach(Employee::displayInfo);
         System.out.println("After processing....");
         empList.stream().
-        filter(employee -> employee.getSalary() > 50_000).
+        filter(employee -> employee.getSalary() < 50_000).
         sorted(Comparator.reverseOrder()).
         forEach(Employee::displayInfo);
     }
